@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Address form</title>
+</head>
+<body>
+    <div>
+        <h2>Shipping Address</h2>
+        <hr>
+        <form>
+        
+            <label>Phone Number * </label>
+            <input type="number" required min="200" max="2000" />
+                        <label>Company</label>
+            <input type="text" required><br><br>
+            <label>Country * </label>
+            <select>
+                <option>Australia</option>
+                <option>America</option>
+                <option>Netherlands</option>
+                <option>Africa</option>
+                <option>India</option>
+                <option>UAE</option>
+                <option>Indonesia</option>
+                <option>Greenland</option>
+            </select><br>
+            <br>
+            <label>Address finder</label>
+            <input type="text" placeholder="Victoria street,Richmond VIC,Australia">
+            <br><br>
+            <label>Street Address * </label>
+            <input type="text" placeholder="victoria street" minlength="7" maxlength="15"><br>
+            <input type="text" required><br><br>
+
+            <label>Suburb * </label>
+            <input type="text" placeholder="Richmond" readonly ><br>
+            <br>
+            <label>Zip/Postal Code * </label>
+            <input type="number" required>
+            <br>
+            <label>Save in address book</label>
+            <input type="checkbox" >
+            <hr>
+            <button>cancel</button>
+           <br>
+           <label>Save address</label>
+           <input type="submit" >
+
+            
+
+
+        </form>
+            
+    </div>
+    
+</body>
+</html>
